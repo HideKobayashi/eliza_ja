@@ -1,9 +1,9 @@
 # eliza_ja
 Eliza in Japanese with Python（日本語版の Eliza / Python）
 
-##　これは何？
+## これは何？
 
-このソフトウエアは、Jez Higgins 氏によって GitHub に公開された eliza.py というソフトウエアを日本語化したものです。日本語化するにあたっては、今回は安易に、googletrans を利用してみることにしました。
+このソフトウエアは、Jez Higgins 氏によって GitHub に公開された eliza.py というソフトウエアを日本語化したものです。日本語化するにあたっては、今回はgoogletrans を利用しています。googletrans は Google が Web サービスとして提供している翻訳サービスを Python から使えるようにするためのライブラリです。
 
 ### 環境構築
 
