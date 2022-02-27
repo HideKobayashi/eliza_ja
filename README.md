@@ -12,9 +12,15 @@ Eliza in Japanese with Python（日本語版の Eliza / Python）
     eliza.py, Eliza in Python by Jez Higgins et. al.
     https://github.com/HideKobayashi/eliza.py
 
-googletrans を PyPI からインストールします。
+googletrans を PyPI からインストールします。※1
 
     pip install googletrans
+
+※1) 2022-2-27 現在、デフォルトでインストールされる googletrans 3.0.0 では動作しないので、4.0.0-rc1 を使います。
+　3.0.0 をインストールして動かなかった場合は、下記のコマンドを実行してください。
+
+    pip　uninstall googletrans
+    pip install googletrans==4.0.0-4c1
 
 ### 実行方法
 
